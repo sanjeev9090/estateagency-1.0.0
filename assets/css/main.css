@@ -657,7 +657,7 @@ section,
 
 .hero .carousel {
   width: 100%;
-  min-height: 80vh;
+  min-height: 84vh;
   padding: 0;
   margin: 0;
   background-color: var(--background-color);
@@ -1770,5 +1770,20 @@ section,
     text-decoration: none;
   }
 
+/* transparent image */
 
-  
+  .services-bg {
+  background-image: url('https://i.ibb.co/VWBGZvNd/vecteezy-abstract-white-and-gray-light-gradient-lines-background-6469230.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* or 'contain', depending on your design */
+  background-position: center;
+  background-attachment: fixed; /* Optional: adds parallax effect */
+}
+.agents-bg {
+  background-image:url('https://i.ibb.co/VWBGZvNd/vecteezy-abstract-white-and-gray-light-gradient-lines-background-6469230.jpg'); /* Replace with actual image path */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional for parallax effect */
+  position: relative;
+}
