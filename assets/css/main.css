@@ -1748,3 +1748,14 @@ section,
 .pic:hover .overlay {
   opacity: 1;
 }
+
+
+
+
+.fixed-top{
+  top: 27px;
+}
+
+  body {
+    padding-top: 110px; /* Topbar (32px) + Header (~70-80px) */
+  }

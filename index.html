@@ -38,30 +38,38 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">
-          <img src="assets/img/hero-carousel/logo-removebg-preview.png" alt="">
-        </h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="agents.html">What We Offer</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
+<div class="topbar py-1 text-white w-100" style="background-color: #6f4e37; position: fixed; top: 0; z-index: 1050;">
+  <div class="container-fluid container-xl d-flex justify-content-end align-items-center">
+    <div class="contact-info d-flex align-items-center">
+      <i class="bi bi-telephone-fill me-2"></i> <span>+91-9876543210</span>
+      <span class="mx-3">|</span>
+      <i class="bi bi-envelope-fill me-2"></i> <span>info@example.com</span>
     </div>
-  </header>
+  </div>
+</div>
+
+<!-- Sticky Header/Navbar (below topbar) -->
+<header id="header" class="header d-flex align-items-center w-100" style="position: fixed; top: 32px; z-index: 1040; background: white;">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+    <a href="index.html" class="logo d-flex align-items-center">
+      <h1 class="sitename">
+        <img src="assets/img/hero-carousel/logo-removebg-preview.png" alt="">
+      </h1>
+    </a>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="agents.html">What We Offer</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+  </div>
+</header>
 
   <main class="main">
 
