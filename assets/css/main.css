@@ -1773,14 +1773,14 @@ section,
 /* transparent image */
 
   .services-bg {
-  background-image: url('https://i.ibb.co/VWBGZvNd/vecteezy-abstract-white-and-gray-light-gradient-lines-background-6469230.jpg');
+  background-image: url('https://i.ibb.co/G4G8Y2n6/vecteezy-small-hexagon-shape-with-light-white-and-grey-color-seamless-6941002.jpg');
   background-repeat: no-repeat;
   background-size: cover; /* or 'contain', depending on your design */
   background-position: center;
   background-attachment: fixed; /* Optional: adds parallax effect */
 }
 .agents-bg {
-  background-image:url('https://i.ibb.co/VWBGZvNd/vecteezy-abstract-white-and-gray-light-gradient-lines-background-6469230.jpg'); /* Replace with actual image path */
+  background-image: url('https://i.ibb.co/G4G8Y2n6/vecteezy-small-hexagon-shape-with-light-white-and-grey-color-seamless-6941002.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
