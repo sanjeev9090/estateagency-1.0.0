@@ -1,30 +1,35 @@
-# SR Packaging Website
+# 📦 SR Packaging Website
 
-> Official website for SR Packaging — a company specializing in premium packaging solutions.  
-> 🌐 [Visit the Website](https://srpackaging.vercel.app)
+> A responsive company website built using HTML, CSS, JavaScript, and Bootstrap.  
+> 🌐 [Live Site](https://srpackaging.vercel.app)
 
 ---
 
-## 📌 Project Overview
+## 📌 Overview
 
-This repository contains the source code for the SR Packaging website, designed to provide visitors with information about our packaging products, services, and contact details.
+This is the official website for **SR Packaging**, showcasing the company's packaging products and services. It was built to be responsive, clean, and user-friendly using front-end web technologies.
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-- **Frontend**: javascript
-- **Styling**: Tailwind CSS 
-- **Deployment**: [Vercel](https://vercel.com/)  
+- **HTML5** – Structure
+- **CSS3** – Styling
+- **Bootstrap 5** – Layout and components
+- **JavaScript** – Interactivity
+- **Vercel** – Deployment
+
+## 💻 Features
+
+- Responsive design for all devices
+- Smooth navigation
+- Product/service showcase
+- Contact section
+- Clean UI with Bootstrap components
 
 ## 🚀 Getting Started
 
-To run this project locally, follow these steps:
+To run the project locally:
+
+### 1. Clone the Repository
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/your-username/srpackaging.git
-
-# 2. Navigate into the directory
-cd srpackaging
-
-# 3. Open in browser
-# Navigate to http://localhost:3000
