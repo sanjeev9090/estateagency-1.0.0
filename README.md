@@ -26,15 +26,5 @@ git clone https://github.com/your-username/srpackaging.git
 # 2. Navigate into the directory
 cd srpackaging
 
-# 3. Install dependencies
-npm install
-# or
-yarn install
-
-# 4. Start the development server
-npm run dev
-# or
-yarn dev
-
-# 5. Open in browser
+# 3. Open in browser
 # Navigate to http://localhost:3000
